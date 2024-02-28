@@ -1,0 +1,9 @@
+<loadFolders>
+  <v1.4>
+    <li>/</li>
+    <li>1.4</li>
+    <li IfModNotActive="RedMattis.Undead">Mods/No_VampiresDemonsUndead</li>
+    <li IfModNotActive="Ludeon.Rimworld.Royalty">Mods/NoRoyalty</li>
+    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.MedievalModule">Mods/VFE_Medieval</li>
+  </v1.4>
+</loadFolders>

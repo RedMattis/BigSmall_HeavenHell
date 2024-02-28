@@ -1,0 +1,88 @@
+<Defs>
+  <BackstoryDef>
+    <defName>BS_Unnatural</defName>
+    <title>unnatural</title>
+    <titleShort>unnatural</titleShort>
+    <baseDesc>[PAWN_nameDef] was created by mysterious forces.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li><key>Intellectual</key><value>4</value></li>
+      <li><key>Medicine</key><value>-2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_UnnaturalChildhood</li>
+      <li>BS_Heaven</li>
+      <li>BS_Hell</li>
+      <li>BS_Outcast</li>
+      <li>BS_HeavenServitor</li>
+      <li>BS_Satan</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BS_HeavenServitor</defName>
+    <title>heavenly servitor</title>
+    <titleShort>servitor</titleShort>
+    <baseDesc>[PAWN_nameDef] was doing middle-management within the divine hierarchy.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Melee</key><value>3</value></li>
+      <li><key>Shooting</key><value>3</value></li>
+      <li><key>Social</key><value>3</value></li>
+      <li><key>Intellectual</key><value>3</value></li>
+      <li><key>Medicine</key><value>3</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+      <li>BS_HeavenServitor</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <!-- <BackstoryDef>
+    <defName>BS_HeavenServitor</defName>
+    <title>heavenly servitor</title>
+    <titleShort>bureaucrat</titleShort>
+    <baseDesc>[PAWN_nameDef] used to be responsible for crafts and constructions in the divine hierarchy.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Construction</key><value>4</value></li>
+      <li><key>Crafting</key><value>6</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+    </spawnCategories>
+  </BackstoryDef> -->
+
+  <BackstoryDef>
+    <defName>BS_HeavenWarrior</defName>
+    <title>heavenly warrior</title>
+    <titleShort>warrior</titleShort>
+    <baseDesc>[PAWN_nameDef]'s main duty was that of a heavenly warrior.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Melee</key><value>8</value></li>
+      <li><key>Shooting</key><value>5</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+      <li>BS_HeavenWarrior</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BS_Satan</defName>
+    <title>adversary</title>
+    <titleShort>adversary</titleShort>
+    <baseDesc>[PAWN_nameDef]'s main duty was to test the faithful and judge the guilty.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li><key>Melee</key><value>5</value></li>
+      <li><key>Shooting</key><value>2</value></li>
+      <li><key>Social</key><value>2</value></li>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+      <li>BS_Satan</li>
+    </spawnCategories>
+  </BackstoryDef>
+</Defs>

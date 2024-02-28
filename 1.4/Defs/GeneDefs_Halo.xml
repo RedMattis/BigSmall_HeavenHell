@@ -1,0 +1,89 @@
+<Defs>
+  <GeneDef Abstract="True" Name="BS_Halobase">
+    <exclusionTags>
+      <li>BS_Halo</li>
+    </exclusionTags>
+    <modExtensions>
+			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li>
+		</modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="BS_Halobase">
+		<defName>BS_AngelHalo</defName>
+		<label>angelic halo</label>
+		<description>Carriers of this gene possess an angelic halo.</description>
+		<iconPath>GeneIcons/Gene_AngelHalo</iconPath>
+		<graphicData>
+      <color>(255, 255, 255, 200)</color>
+			<graphicPath>BS_Halos/AngelHalo</graphicPath>
+      <useSkinShader>false</useSkinShader>
+      <colorType>Custom</colorType>
+      <drawWhileDessicated>false</drawWhileDessicated>
+      <drawLoc>HeadTop</drawLoc>
+      <layer>PostSkin</layer>
+      <drawOffsetNorth>(0.0, 0.1, 0.00)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.05, 0.05)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, 0.2, 0.0)</drawOffsetEast>
+    </graphicData>
+	</GeneDef>
+
+  <GeneDef ParentName="BS_Halobase">
+		<defName>BS_FalseHalo</defName>
+		<label>false halo</label>
+		<description>Carriers of this gene possess a strange halo.</description>
+		<iconPath>GeneIcons/Gene_AngelHalo</iconPath>
+		<graphicData>
+      <color>(220, 160, 150, 130)</color>
+			<graphicPath>BS_Halos/AngelHalo</graphicPath>
+      <useSkinShader>false</useSkinShader>
+      <colorType>Custom</colorType>
+      <drawWhileDessicated>false</drawWhileDessicated>
+      <drawLoc>HeadTop</drawLoc>
+      <layer>PostSkin</layer>
+      <drawOffsetNorth>(0.0, 0.1, 0.00)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.05, 0.05)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, 0.2, 0.0)</drawOffsetEast>
+    </graphicData>
+	</GeneDef>
+
+  <GeneDef ParentName="BS_Halobase">
+		<defName>BS_FieryHalo</defName>
+		<label>burning halo</label>
+		<description>Carriers of this gene possess an burning angelic halo.</description>
+		<iconPath>GeneIcons/Gene_FieryHalo</iconPath>
+		<graphicData>
+      <color>(255, 255, 255, 220)</color>
+			<graphicPath>BS_Halos/FieryHalo</graphicPath>
+      <useSkinShader>false</useSkinShader>
+      <colorType>Custom</colorType>
+      <drawWhileDessicated>false</drawWhileDessicated>
+      <drawLoc>HeadTop</drawLoc>
+      <layer>PostSkin</layer>
+      <drawOffsetNorth>(0.0, 0.1, 0.05)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.05, 0.15)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, 0.2, 0.15)</drawOffsetEast>
+    </graphicData>
+	</GeneDef>
+
+  <GeneDef ParentName="BS_Halobase">
+		<defName>BS_MenacingHalo</defName>
+		<label>meanacing halo</label>
+		<description>Carriers of this gene possess an menacing dark halo.</description>
+		<iconPath>GeneIcons/Gene_MenacingHalo</iconPath>
+		<graphicData>
+      <color>(255, 255, 255, 235)</color>
+			<graphicPath>BS_Halos/MenacingHalo</graphicPath>
+      <useSkinShader>false</useSkinShader>
+      <colorType>Custom</colorType>
+      <drawWhileDessicated>false</drawWhileDessicated>
+      <drawLoc>HeadTop</drawLoc>
+      <layer>PostSkin</layer>
+      <drawOffsetNorth>(0.0, 0.1, 0.05)</drawOffsetNorth>
+			<drawOffsetSouth>(-0.0, -0.05, 0.10)</drawOffsetSouth>
+			<drawOffsetEast>(-0.0, 0.2, 0.10)</drawOffsetEast>
+    </graphicData>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,54 @@
+<Defs>
+
+  <GeneDef ParentName="FertilityBase">
+    <defName>BS_GrigoriFertile</defName>
+    <label>fertile</label>
+    <geneClass>BetterPrerequisites.PGene</geneClass>
+    <description>Carriers of this gene have a higher chance of becoming pregnant or impregnating others...</description>
+    <iconPath>UI/Icons/Genes/Gene_Fertile</iconPath>
+    <displayCategory>BS_DO_NOT</displayCategory>
+    <displayOrderInCategory>110</displayOrderInCategory>
+    <statFactors>
+      <Fertility>2</Fertility>
+    </statFactors>
+    <modExtensions>
+      <li Class="BetterPrerequisites.GeneExtension">
+        <transformGene>
+          <genesForbidden>
+            <li>BS_JotunArchiteMetabolism</li>
+            <li>ArchiteMetabolism</li>
+          </genesForbidden>
+          <xenotypeToAdd>BS_Nephilim</xenotypeToAdd>
+          <genesToRemove>
+            <li>BS_Diet_Herbivore</li>
+            <li>MinTemp_HugeDecrease</li>
+            <li>Aggression_DeadCalm</li>
+            <li>KindInstinct</li>
+            <li>LowSleep</li>
+            <li>Delicate</li>
+            <li>VU_Hermaphromorph</li>
+            <li>BS_Flirty</li>
+            <li>Beauty_Pretty</li>
+            <li>Hair_LongOnly</li>
+            <li>Body_Standard</li>
+            <li>Hair_SnowWhite</li>
+            <li>BS_HairFrostWhite</li>
+            <li>AG_Hair_Golden</li>
+            <li>BS_SkinFrostWhite</li>
+            <li>BS_InsultProof</li>
+            <li>BS_EVA_Gene</li>
+            <li>Learning_Slow</li>
+            <li>Hair_Grayless</li>
+            <li>BS_GracefulAngelwings</li>
+          </genesToRemove>
+        </transformGene>
+      </li>
+      <!-- Leaving this out to be sneaky...-->
+			<!-- <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
+			</li> -->
+		</modExtensions>
+  </GeneDef>
+
+</Defs>

@@ -1,0 +1,30 @@
+<Defs>
+  <XenotypeDef>
+    <defName>BS_Nephilim</defName>
+    <label>Nephilim</label>
+    <combatPowerFactor>3.5</combatPowerFactor>
+    <description>Nephilim are said to be grotesquely enormus offspring of a Grigori and a human. Angels describe them as a most unnatural, foul, cannibalistic monstrosity in the shape of a mankin.</description>
+    <descriptionShort>Nephilim are said to be grotesquely enormus offspring of a Grigori and a human</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <inheritable>true</inheritable>
+    <factionlessGenerationWeight>1</factionlessGenerationWeight>
+    <genes>
+			<li>BS_JotunArchiteMetabolism</li>
+			<li>DiseaseFree</li>
+			<li>TitanFrame</li>
+			<li>BS_ToughSkin</li>
+			<li>Immunity_Weak</li>
+			<li>WoundHealing_Fast</li>
+			<li>Mood_Pessimist</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Aggression_Aggressive</li>
+			<li>Body_Standard</li>
+			<li>Body_Fat</li>
+			<li>Body_Hulk</li>
+			<li>Skin_LightGray</li>
+			<li>Learning_Slow</li>
+			<li>Unstoppable</li>
+		</genes>
+  </XenotypeDef>
+</Defs>
