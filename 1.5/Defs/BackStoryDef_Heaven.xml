@@ -1,0 +1,73 @@
+<Defs>
+  <BackstoryDef>
+    <defName>BS_Unnatural</defName>
+    <title>unnatural</title>
+    <titleShort>unnatural</titleShort>
+    <baseDesc>[PAWN_nameDef] was created by mysterious forces.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Medicine>-2</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_UnnaturalChildhood</li>
+      <li>BS_Heaven</li>
+      <li>BS_Hell</li>
+      <li>BS_Outcast</li>
+      <li>BS_HeavenServitor</li>
+      <li>BS_Satan</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BS_HeavenServitor</defName>
+    <title>heavenly servitor</title>
+    <titleShort>servitor</titleShort>
+    <baseDesc>[PAWN_nameDef] was doing middle-management within the divine hierarchy, with a side of smiting.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>4</Melee>
+      <Shooting>4</Shooting>
+      <Social>4</Social>
+      <Intellectual>4</Intellectual>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+      <li>BS_HeavenServitor</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BS_HeavenWarrior</defName>
+    <title>heavenly warrior</title>
+    <titleShort>warrior</titleShort>
+    <baseDesc>[PAWN_nameDef]'s main duty was that of a heavenly warrior.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>8</Melee>
+      <Shooting>4</Shooting>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+      <li>BS_HeavenWarrior</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BS_Satan</defName>
+    <title>adversary</title>
+    <titleShort>adversary</titleShort>
+    <baseDesc>[PAWN_nameDef]'s main duty was to test the faithful and judge the guilty.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Melee>5</Melee>
+      <Shooting>2</Shooting>
+      <Social>2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>BS_Heaven</li>
+      <li>BS_Satan</li>
+    </spawnCategories>
+  </BackstoryDef>
+</Defs>

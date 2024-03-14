@@ -18,7 +18,7 @@
 		<iconPath>GeneIcons/Gene_AngelHalo</iconPath>
 		<graphicData>
       <color>(255, 255, 255, 200)</color>
-			<graphicPath>BS_Halos/AngelHalo</graphicPath>
+			<graphicPath>BS_Halos/AngelHaloSmall</graphicPath>
       <useSkinShader>false</useSkinShader>
       <colorType>Custom</colorType>
       <drawWhileDessicated>false</drawWhileDessicated>
@@ -37,7 +37,7 @@
 		<iconPath>GeneIcons/Gene_AngelHalo</iconPath>
 		<graphicData>
       <color>(220, 160, 150, 130)</color>
-			<graphicPath>BS_Halos/AngelHalo</graphicPath>
+			<graphicPath>BS_Halos/AngelHaloSmall</graphicPath>
       <useSkinShader>false</useSkinShader>
       <colorType>Custom</colorType>
       <drawWhileDessicated>false</drawWhileDessicated>

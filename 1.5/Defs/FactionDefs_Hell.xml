@@ -76,7 +76,6 @@
         <BS_Lilim>0.2</BS_Lilim>
         <BS_Glutton>0.1</BS_Glutton>
       </xenotypeChances>
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
     </xenotypeSet>
     
     <maxPawnCostPerTotalPointsCurve Inherit="False">

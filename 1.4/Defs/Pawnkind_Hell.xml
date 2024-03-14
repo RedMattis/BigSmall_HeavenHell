@@ -1,0 +1,55 @@
+<Defs>
+  <PawnKindDef ParentName="BS_Tribal_Wildman">
+    <defName>BS_BigGlutton</defName>
+    <label>demon of gluttony</label> <!-- ...they have powerful natural weapons.-->
+    <combatPower>100</combatPower>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelTags Inherit="False" />
+    <weaponTags Inherit="False" />
+    <maxPerGroup>3</maxPerGroup>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances Inherit="False">
+        <BS_Glutton>999</BS_Glutton>
+      </xenotypeChances>
+      <warnIfTotalAbove1>false</warnIfTotalAbove1>
+    </xenotypeSet>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BS_Tribal_Wildman">
+    <defName>BS_SmallGlutton</defName>
+    <label>lesser demon of gluttony</label> <!-- ...they have powerful natural weapons.-->
+    <combatPower>100</combatPower>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelTags Inherit="False" />
+    <weaponTags Inherit="False" />
+    <xenotypeSet Inherit="False">
+      <xenotypeChances Inherit="False">
+        <BS_LilGlutton>999</BS_LilGlutton>
+      </xenotypeChances>
+      <warnIfTotalAbove1>false</warnIfTotalAbove1>
+    </xenotypeSet>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="BS_MedievalKnight">
+    <defName>VU_LilimWarrior</defName>
+    <label>hellguard</label>
+    <combatPower>100</combatPower>
+
+    <xenotypeSet Inherit="False">
+      <xenotypeChances Inherit="False">
+        <BS_Lilim>999</BS_Lilim>
+      </xenotypeChances>
+      <warnIfTotalAbove1>false</warnIfTotalAbove1>
+    </xenotypeSet>
+    <weaponMoney>300~3700</weaponMoney>
+    <apparelMoney>5~3000</apparelMoney>
+    <weaponTags>
+      <li MayRequire="Sierra.RF.MedievalOverhaul">BS_ArcaneBattleAxe</li>
+      <li MayRequire="Sierra.RF.MedievalOverhaul">BS_ArcanHalberd</li>
+      <li MayRequire="Sierra.RF.MedievalOverhaul">BS_ArcaneSpear</li>
+      <li MayRequire="Sierra.RF.MedievalOverhaul">BS_ArcaneHammer</li>
+    </weaponTags>
+  </PawnKindDef>
+</Defs>

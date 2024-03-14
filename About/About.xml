@@ -4,6 +4,7 @@
 	<author>RedMattis</author>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -33,5 +34,5 @@
   <incompatibleWith>
 	</incompatibleWith>
 	
-	<description>Pending</description>
+	<description>Join the conflict between Heaven, Hell, and the Outcasts. Contains an assortment of diabolical and heavenly genes and xenotypes.</description>
 </ModMetaData>

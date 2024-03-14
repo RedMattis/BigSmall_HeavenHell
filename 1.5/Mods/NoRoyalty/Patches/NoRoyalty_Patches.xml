@@ -1,0 +1,92 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <!-- <success>Always</success> -->
+    <xpath>Defs/PawnKind[defName="BS_Authority"]</xpath>
+    <value>
+      <PawnKindDef ParentName="BS_MedievalKnight" Name="BS_AuthorityWarrior">
+        <defName>BS_AuthorityWarrior</defName>
+        <label>holy warrior</label>
+        <combatPower>200</combatPower>
+        <apparelColor>1.0,0.25,0.3</apparelColor>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelIgnorePollution>true</apparelIgnorePollution>
+        <backstoryFiltersOverride>
+          <li>
+            <categories>
+              <li>BS_HeavenWarrior</li>
+            </categories>
+          </li>
+        </backstoryFiltersOverride>
+        <apparelMoney>7000~10000</apparelMoney>
+        <techHediffsMoney>1000~10000</techHediffsMoney>
+        <skills>
+          <li>
+            <skill>Melee</skill>
+            <range>8~20</range>
+          </li>
+        </skills>
+        <weaponMoney>3000~3500</weaponMoney>
+        <apparelRequired Inherit="False">
+          <li>Apparel_PowerArmor</li>
+        </apparelRequired>
+        <weaponTags Inherit="False">
+          <li>UltratechMeleeGiant_Fire</li>
+        </weaponTags>
+        <xenotypeSet Inherit="False">
+          <xenotypeChances>
+            <BS_Authority>999</BS_Authority>
+          </xenotypeChances>
+        </xenotypeSet>
+        <techHediffsTags Inherit="False">
+          <li>Advanced</li>
+          <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <forcedTraits>
+          <PsychicSensitivity>1</PsychicSensitivity>
+        </forcedTraits>
+        <chemicalAddictionChance>0.0</chemicalAddictionChance>
+      </PawnKindDef>
+      
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <!-- <success>Always</success> -->
+    <xpath>Defs/PawnKind[defName="BS_AuthorityLord"]</xpath>
+    <value>
+      <PawnKindDef ParentName="BS_AuthorityWarrior">
+        <defName>BS_AuthorityLord</defName>
+        <label>holy general</label>
+        <combatPower>300</combatPower>
+        <apparelColor>1.0,1.0,1.0</apparelColor>
+        <apparelMoney>7000~10000</apparelMoney>
+        <techHediffsMoney>2000~8000</techHediffsMoney>
+        <itemQuality>Masterwork</itemQuality>
+        <skills>
+          <li>
+            <skill>Melee</skill>
+            <range>16~20</range>
+          </li>
+        </skills>
+        <weaponMoney>3000~3500</weaponMoney>
+        <apparelRequired Inherit="False">
+          <li>Apparel_PowerArmor</li>
+        </apparelRequired>
+        <weaponTags Inherit="False">
+          <li>UltratechMeleeGiant_Fire</li>
+        </weaponTags>
+        <xenotypeSet Inherit="False">
+          <xenotypeChances>
+            <BS_Authority>999</BS_Authority>
+          </xenotypeChances>
+        </xenotypeSet>
+        <forcedTraits>
+          <PsychicSensitivity>2</PsychicSensitivity>
+          <!-- <Tough/> -->
+        </forcedTraits>
+        <chemicalAddictionChance>0.0</chemicalAddictionChance>
+      </PawnKindDef>
+    </value>
+  </Operation>
+</Patch>

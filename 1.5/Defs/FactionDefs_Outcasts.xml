@@ -74,7 +74,6 @@
         <!-- <BS_Authority>0.005</BS_Authority> -->
         <!-- <BS_Nephilim>0.00</BS_Nephilim> -->
       </xenotypeChances>
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
     </xenotypeSet>
     <raidCommonalityFromPointsCurve>
       <points>

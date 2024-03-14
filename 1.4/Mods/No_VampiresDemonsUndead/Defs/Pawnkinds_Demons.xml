@@ -66,6 +66,7 @@
     <defName>VU_DemonCommander_Suc</defName>
     <label>noble</label>
     <combatPower>135</combatPower>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 
     <apparelMoney>2000~8000</apparelMoney>
     <xenotypeSet Inherit="False">

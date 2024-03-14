@@ -1,0 +1,9 @@
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <!-- <success>Always</success> -->
+    <xpath>Defs/PawnKindDef[defName="BS_ServitorMelee" or defName="BS_ServitorRanged" or defName="BS_Satan"]/apparelRequired/li[text()="Apparel_PlateArmor"]</xpath>
+    <value>
+      <li>VFEM_Apparel_PlateArmorHeavy</li>
+    </value>
+  </Operation>
+</Patch>

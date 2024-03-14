@@ -19,7 +19,6 @@
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Malakim>999</BS_Malakim>
       </xenotypeChances>
@@ -61,7 +60,6 @@
       <li>MedievalArmorAdvanced</li>
     </apparelTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Malakim>999</BS_Malakim>
       </xenotypeChances>
@@ -88,7 +86,6 @@
     <apparelIgnorePollution>true</apparelIgnorePollution>
     <weaponMoney>1200~2000</weaponMoney>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Malakim>999</BS_Malakim>
       </xenotypeChances>
@@ -145,7 +142,6 @@
       <!-- <li>MedievalMeleeAdvanced</li> -->
     </weaponTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Satan>999</BS_Satan>
       </xenotypeChances>
@@ -215,7 +211,6 @@
       <li>UltratechMeleeGiant_Fire</li>
     </weaponTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Authority>999</BS_Authority>
       </xenotypeChances>
@@ -257,7 +252,6 @@
       <li>UltratechMeleeGiant_Fire</li>
     </weaponTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Authority>999</BS_Authority>
       </xenotypeChances>
@@ -322,7 +316,6 @@
       <li>HerculeanWeapon</li>
     </weaponTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Nephilim>999</BS_Nephilim>
       </xenotypeChances>
