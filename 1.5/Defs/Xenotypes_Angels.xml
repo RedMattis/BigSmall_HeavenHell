@@ -8,6 +8,8 @@
     <descriptionShort>Incredibly powerful angels most commonly seen on the battlefield.</descriptionShort>
     <iconPath>Xenotypes/BS_Authority</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_HeavenNamer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
@@ -65,6 +67,8 @@
     <descriptionShort>Malakim are the most common among the angels. They often act as messengers.</descriptionShort>
     <iconPath>Xenotypes/BS_Malakim</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_HeavenNamer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
@@ -109,6 +113,8 @@
     <descriptionShort>Also known as the Angels of Hell or Zabaniyah.</descriptionShort>
     <iconPath>Xenotypes/BS_Satan</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Demon_Namer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>LoS_MarlithBody</li>
@@ -162,6 +168,8 @@
     <descriptionShort>Also known as the Fallen Watchers, they are the angels who were responsible for watching over humans.</descriptionShort>
     <iconPath>Xenotypes/BS_Grigori</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_HeavenNamer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>

@@ -8,6 +8,8 @@
     <descriptionShort>Gluttons are terrifying demons covered in teeth and mouths.</descriptionShort>
     <iconPath>Xenotypes/BS_Ogre</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Demon_Namer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
       <li>Ageless</li>
@@ -58,6 +60,8 @@
     <description>Lil' gluttons appear to be smaller version of gluttons. They possess the same voracious appetite as their larger kin.</description>
     <iconPath>Xenotypes/BS_Ogre</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Demon_Namer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>

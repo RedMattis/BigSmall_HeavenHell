@@ -101,7 +101,7 @@
       <li>
         <!-- Glutton Horde -->
         <kindDef>Combat</kindDef>
-        <commonality>20</commonality>
+        <commonality>10</commonality>
         <options>
           <BS_BigGlutton>1</BS_BigGlutton>
           <BS_SmallGlutton>1</BS_SmallGlutton>
