@@ -28,6 +28,7 @@
       <li>Advanced</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_MedievalKnight" Name="BS_ServitorMelee">
@@ -69,6 +70,7 @@
       <li>Advanced</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_ServitorMelee">
@@ -151,6 +153,7 @@
       <li>Advanced</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_Satan">
@@ -226,6 +229,7 @@
     </forcedTraits> -->
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <techHediffsChance>0.15</techHediffsChance>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityWarrior" Name="BS_AuthorityLord">
