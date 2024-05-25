@@ -40,6 +40,7 @@
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>Immunity_SuperStrong</li>

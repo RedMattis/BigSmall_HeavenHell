@@ -71,6 +71,13 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
     </requiredMemes>
 
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+
     <xenotypeSet>
       <xenotypeChances Inherit="False">
         <!--None of the combat Pawnkinds are human, but human miners (etc.) should be able to spawn.-->

@@ -13,6 +13,7 @@
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>BS_IndestructibleApparel</li>
 			<li>DiseaseFree</li>
@@ -72,6 +73,7 @@
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
@@ -119,6 +121,7 @@
     <genes>
 			<li>LoS_MarlithBody</li>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
@@ -173,6 +176,7 @@
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
