@@ -26,6 +26,8 @@
 			<li>Learning_Slow</li>
 			<li>Unstoppable</li>
 			<li>BS_VerySlowAging</li>
+
+			<li>BS_SoulPowerGreat</li>
 		</genes>
   </XenotypeDef>
 
@@ -70,6 +72,7 @@
 			<li>AptitudePoor_Animals</li>
 			<li>AptitudeStrong_Social</li>
 			<li MayRequire="vanillaracesexpanded.highmate">VRE_HighmateHair</li>
+			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
 </Defs>

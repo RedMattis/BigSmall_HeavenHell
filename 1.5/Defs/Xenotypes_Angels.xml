@@ -20,7 +20,7 @@
 			<li>PerfectImmunity</li>
 			<li>TotalHealing</li>
 			<li>BS_Diet_Herbivore</li>
-			<li>HalfJotunFrame</li>
+			<!-- <li>HalfJotunFrame</li> -->
 			<li>BS_SlowBleeding</li>
 			<li>BS_EltexPsychic</li>
 			<li>BS_PsychicWarrior</li>
@@ -57,6 +57,9 @@
 			<li>AptitudeTerrible_Artistic</li>
 			<li>AptitudeTerrible_Social</li>
 			<li>FireImmunity</li>
+
+			<li>BS_SoulPowerGreat</li>
+			<li>BS_AnomalousForm</li>
 		</genes>
   </XenotypeDef>
 
@@ -104,6 +107,7 @@
 			<li>AptitudePoor_Intellectual</li>
       <!-- <li>BS_HolyAngelwings</li> --> <!--Maybe use these for some other Angel?-->
       <li>BS_MajesticBird</li>
+			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
 
@@ -129,7 +133,7 @@
 			<li>BS_TyrantCrown_Skin</li>
 			<li>BS_CannotWearClothing</li>
 			<li>BS_NaturalArmor</li>
-			<li>HalfJotunFrame</li>
+			<!-- <li>HalfJotunFrame</li> -->
 			<li>BS_SlowBleeding</li>
       <li>BS_Unpretentious</li>
 			<!-- <li>MoveSpeed_Quick</li> -->
@@ -160,6 +164,9 @@
 			<li>AptitudePoor_Artistic</li>
 			<li>AptitudeStrong_Social</li>
 			<!-- <li>AptitudePoor_Intellectual</li> -->
+
+			<li>BS_SoulPowerGreat</li>
+			<li>BS_AnomalousForm</li>
 		</genes>
   </XenotypeDef>
 
@@ -210,6 +217,7 @@
 			<li>AptitudePoor_Mining</li>
 			<li>AptitudeStrong_Crafting</li>
 			<li>AptitudeStrong_Intellectual</li>
+			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
 

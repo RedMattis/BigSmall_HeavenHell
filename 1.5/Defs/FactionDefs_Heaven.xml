@@ -154,6 +154,7 @@
         <options>
           <BS_ServitorMelee>10</BS_ServitorMelee>
           <BS_ServitorRanged>10</BS_ServitorRanged>
+          <BS_Authority_Single>1</BS_Authority_Single>
         </options>
       </li>
       <li>
@@ -164,6 +165,7 @@
           <BS_ServitorMelee>10</BS_ServitorMelee>
           <BS_ServitorRanged>10</BS_ServitorRanged>
           <BS_SatanLimited>999</BS_SatanLimited>
+          <BS_Authority_Single>5</BS_Authority_Single>
         </options>
       </li>
       <li>

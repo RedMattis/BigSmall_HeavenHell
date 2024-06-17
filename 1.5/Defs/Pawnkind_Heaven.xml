@@ -154,6 +154,16 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <biocodeWeaponChance>0.75</biocodeWeaponChance>
+    <startingHediffs>
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>0.5</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>1.5</severity>
+      </li>
+    </startingHediffs>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_Satan">
@@ -230,6 +240,22 @@
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <techHediffsChance>0.15</techHediffsChance>
     <biocodeWeaponChance>0.75</biocodeWeaponChance>
+    <startingHediffs>
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>0.5</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>1.5</severity>
+      </li>
+    </startingHediffs>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BS_AuthorityWarrior">
+    <defName>BS_Authority_Single</defName>
+    <label>holy warrior</label>
+    <maxPerGroup>1</maxPerGroup>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityWarrior" Name="BS_AuthorityLord">
@@ -268,6 +294,16 @@
       <PsychicSensitivity>2</PsychicSensitivity>
       <!-- <Tough/> -->
     </forcedTraits>
+    <startingHediffs Inherit="False">
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>1</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>2</severity>
+      </li>
+    </startingHediffs>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityLord">
@@ -298,6 +334,16 @@
       <li>ImplantEmpireCommon</li>
       <li>BodyPartsArchotech</li>
     </techHediffsTags>
+    <startingHediffs Inherit="False">
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>1.5</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>2.5</severity>
+      </li>
+    </startingHediffs>
   </PawnKindDef>
 
 

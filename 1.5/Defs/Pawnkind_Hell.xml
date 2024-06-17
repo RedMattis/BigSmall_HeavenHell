@@ -32,7 +32,7 @@
   
   <PawnKindDef ParentName="BS_MedievalKnight">
     <defName>VU_LilimWarrior</defName>
-    <label>hellguard</label>
+    <label>lilim warrior</label>
     <combatPower>100</combatPower>
 
     <xenotypeSet Inherit="False">

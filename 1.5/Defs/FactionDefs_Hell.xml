@@ -27,7 +27,7 @@
 
 
     <fixedLeaderKinds>
-      <li>VU_DemonCommander</li> <!--Replace with something more impressive.-->
+      <li>VU_DemonPrince</li>
     </fixedLeaderKinds>
   
     <disallowedRaidStrategies>
@@ -121,6 +121,7 @@
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc MayRequire="RedMattis.Undead">3</VU_DemonCommander_Suc>
+          <VU_DemonPrince>1</VU_DemonPrince>
         </options>
       </li>
   
@@ -136,6 +137,7 @@
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_RoamingFootman MayRequire="RedMattis.Undead">2</VU_RoamingFootman>
+          <VU_DemonPrince>1</VU_DemonPrince>
         </options>
       </li>
   
@@ -149,6 +151,7 @@
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonPrince>1</VU_DemonPrince>
         </options>
       </li>
       <!-- In case a mod spawns them...-->
@@ -185,6 +188,7 @@
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
           <VU_LilimWarrior>1</VU_LilimWarrior>
+          <VU_DemonPrince>1</VU_DemonPrince>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
