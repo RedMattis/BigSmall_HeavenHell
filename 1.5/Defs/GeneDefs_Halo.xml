@@ -4,12 +4,7 @@
     <exclusionTags>
       <li>BS_Halo</li>
     </exclusionTags>
-    <modExtensions>
-      <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-        <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-        <backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-      </li>
-    </modExtensions>
+
   </GeneDef>
   <GeneDef ParentName="BS_Halobase">
     <defName>BS_AngelHalo</defName>

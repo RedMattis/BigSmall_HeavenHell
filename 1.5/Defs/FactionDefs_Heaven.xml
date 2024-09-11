@@ -70,6 +70,10 @@
     <requiredMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
     </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
 
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>

@@ -44,14 +44,8 @@
             <li>BS_GracefulAngelwings</li>
           </genesToRemove>
         </transformGene>
+        <hideInXenotypeUI>true</hideInXenotypeUI>
       </li>
-      <!-- Leaving this out to be sneaky...-->
-			<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="VanillaGenesExpanded.GeneExtension">
-				<!-- <backgroundPathEndogenes>GeneIcons/BS_BackEndogene</backgroundPathEndogenes>
-				<backgroundPathXenogenes>GeneIcons/BS_BackXenogene</backgroundPathXenogenes>
-        <backgroundPathArchite>GeneIcons/BS_BackArchite_1</backgroundPathArchite> -->
-        <hideGene>true</hideGene>
-			</li>
 		</modExtensions>
   </GeneDef>
 
