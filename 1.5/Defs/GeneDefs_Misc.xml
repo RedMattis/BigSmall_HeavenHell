@@ -44,7 +44,7 @@
             <li>BS_GracefulAngelwings</li>
           </genesToRemove>
         </transformGene>
-        <hideInXenotypeUI>true</hideInXenotypeUI>
+        <hideInGenePicker>true</hideInGenePicker>
       </li>
 		</modExtensions>
   </GeneDef>
