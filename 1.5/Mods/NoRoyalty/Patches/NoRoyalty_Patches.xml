@@ -1,7 +1,7 @@
 <Patch>
   <Operation Class="PatchOperationReplace">
     <!-- <success>Always</success> -->
-    <xpath>Defs/PawnKind[defName="BS_Authority"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="BS_AuthorityWarrior"]</xpath>
     <value>
       <PawnKindDef ParentName="BS_MedievalKnight" Name="BS_AuthorityWarrior">
         <defName>BS_AuthorityWarrior</defName>
@@ -53,9 +53,9 @@
 
   <Operation Class="PatchOperationReplace">
     <!-- <success>Always</success> -->
-    <xpath>Defs/PawnKind[defName="BS_AuthorityLord"]</xpath>
+    <xpath>Defs/PawnKindDef[defName="BS_AuthorityLord"]</xpath>
     <value>
-      <PawnKindDef ParentName="BS_AuthorityWarrior">
+      <PawnKindDef ParentName="BS_AuthorityWarrior" Name="BS_AuthorityLord">
         <defName>BS_AuthorityLord</defName>
         <label>holy general</label>
         <combatPower>300</combatPower>
