@@ -106,7 +106,8 @@
 			<li>AptitudeTerrible_Social</li>
 			<li>AptitudePoor_Intellectual</li>
       <!-- <li>BS_HolyAngelwings</li> --> <!--Maybe use these for some other Angel?-->
-      <li>BS_MajesticBird</li>
+      <!-- <li>BS_MajesticBird</li> -->
+			 <li>BS_MajesticBird_Mid</li>
 			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
