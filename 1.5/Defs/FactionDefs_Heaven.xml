@@ -10,7 +10,7 @@
       <li>(1,0.95,0.75)</li>
     </colorSpectrum>
     <leaderTitle>voice of the creator</leaderTitle>
-    <factionIconPath>FactionIcons/BS_Aleph</factionIconPath>
+    <factionIconPath>Icons/BS_Aleph</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <naturalEnemy>true</naturalEnemy>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>

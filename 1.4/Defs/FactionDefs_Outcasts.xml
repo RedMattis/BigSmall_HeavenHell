@@ -10,7 +10,7 @@
       <li>(1,0.9,0.6)</li>
     </colorSpectrum>
     <leaderTitle>leader</leaderTitle>
-    <factionIconPath>FactionIcons/BS_Antimony</factionIconPath><!--Replace This...-->
+    <factionIconPath>Icons/BS_Antimony</factionIconPath><!--Replace This...-->
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>14</configurationListOrderPriority>

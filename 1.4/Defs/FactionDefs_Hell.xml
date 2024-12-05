@@ -10,7 +10,7 @@
     <pawnSingular>demon</pawnSingular>
     <pawnsPlural>demons</pawnsPlural>
     <canStageAttacks>true</canStageAttacks> 
-    <factionIconPath>FactionIcons/BS_Brimstone</factionIconPath>
+    <factionIconPath>Icons/BS_Brimstone</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <configurationListOrderPriority>15</configurationListOrderPriority>
     <listOrderPriority>45</listOrderPriority>
