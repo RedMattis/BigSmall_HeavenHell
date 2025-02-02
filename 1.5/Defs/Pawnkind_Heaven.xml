@@ -164,11 +164,21 @@
         <severity>1.5</severity>
       </li>
     </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.93, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_Satan">
     <defName>BS_SatanLimited</defName>
     <maxPerGroup>1</maxPerGroup>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.5, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_Satan">
@@ -182,6 +192,11 @@
       <li MayRequire="Ludeon.RimWorld.Royalty">AestheticNose</li>
       <li MayRequire="Ludeon.RimWorld.Royalty">HealingEnhancer</li>
     </techHediffsRequired>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0, 8)</li> <li>(1, 16)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <!--Authority-->
@@ -250,6 +265,11 @@
         <severity>1.5</severity>
       </li>
     </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.93, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityWarrior">
@@ -304,6 +324,11 @@
         <severity>2</severity>
       </li>
     </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.4, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityLord">
@@ -344,6 +369,11 @@
         <severity>2.5</severity>
       </li>
     </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0, 6)</li> <li>(1, 12)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
 

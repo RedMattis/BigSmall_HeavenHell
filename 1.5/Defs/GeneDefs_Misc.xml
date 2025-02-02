@@ -14,7 +14,7 @@
     </statFactors>
     <selectionWeight>0.0</selectionWeight>
     <modExtensions>
-      <li Class="BetterPrerequisites.GeneExtension">
+      <li Class="BigAndSmall.PawnExtension">
         <transformGene>
           <genesForbidden>
             <li>BS_JotunArchiteMetabolism</li>
