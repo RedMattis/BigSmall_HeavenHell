@@ -3,7 +3,7 @@
     <defName>BS_Heaven</defName>
     <label>Divine Realm</label>
     <fixedName>Kingdom of Heaven</fixedName>
-    <description>When the time of judgement comes all siners shall be cleansed in the flames of purgatory.</description>
+    <description>When the time of judgement comes all sinners shall be cleansed in the flames of purgatory.</description>
     <pawnSingular>messenger</pawnSingular>
     <pawnsPlural>messengers</pawnsPlural>
     <colorSpectrum>
@@ -13,6 +13,7 @@
     <factionIconPath>Icons/BS_Aleph</factionIconPath>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <naturalEnemy>true</naturalEnemy>
+    <permanentEnemyToEveryoneExceptPlayer>true</permanentEnemyToEveryoneExceptPlayer>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>13</configurationListOrderPriority>
     <listOrderPriority>43</listOrderPriority>

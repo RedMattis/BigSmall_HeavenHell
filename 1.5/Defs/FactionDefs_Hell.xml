@@ -1,9 +1,9 @@
 <Defs>
 
-  <FactionDef ParentName="PirateBandBase"> <!--TribeBase-->
+  <FactionDef ParentName="PirateBandBase">
     <defName>BS_Hell</defName>
     <label>The Infernal Realm</label>
-    <fixedName>Tyrany of Hell</fixedName>
+    <fixedName>Tyranny of Hell</fixedName>
     <leaderTitle>Lord</leaderTitle>
     <description>The realms appear fairly independent from each other and usually ruled by some sort of demon lord.</description>
     <techLevel>Medieval</techLevel>
@@ -31,9 +31,9 @@
     </fixedLeaderKinds>
   
     <disallowedRaidStrategies>
-      <li>ImmediateAttackSappers</li>
+      <!-- <li>ImmediateAttackSappers</li> -->
       <li>ImmediateAttackBreaching</li>
-      <li>ImmediateAttackBreachingSmart</li>
+      <!-- <li>ImmediateAttackBreachingSmart</li> -->
       <li>Siege</li>
     </disallowedRaidStrategies>
     
@@ -82,7 +82,7 @@
     
     <maxPawnCostPerTotalPointsCurve Inherit="False">
       <points>
-        <li>(500, 150)</li> <!-- Can always use relatively strong pawns, because giants doesn't really have weak ones -->
+        <li>(500, 150)</li> <!-- Can always use relatively strong pawns. -->
         <li>(2000, 250)</li>
         <li>(2001, 10000)</li>
       </points>
