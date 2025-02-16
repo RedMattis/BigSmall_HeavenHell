@@ -124,7 +124,6 @@
         <kindDef>Trader</kindDef>
         <traders>
           <Town_Trader>1</Town_Trader>
-          <BS_ServitorBasic>1</BS_ServitorBasic>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>

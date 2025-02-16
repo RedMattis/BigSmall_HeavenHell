@@ -160,9 +160,7 @@
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <VU_DemonCommander_Suc MayRequire="RedMattis.Undead">10</VU_DemonCommander_Suc>
-          <VU_DemonCommander>0.001</VU_DemonCommander>
-          <VU_LilimWarrior>1</VU_LilimWarrior>
+          <Town_Trader>1</Town_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
