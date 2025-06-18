@@ -19,7 +19,6 @@
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Malakim>999</BS_Malakim>
       </xenotypeChances>
@@ -29,6 +28,7 @@
       <li>Advanced</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_MedievalKnight" Name="BS_ServitorMelee">
@@ -61,7 +61,6 @@
       <li>MedievalArmorAdvanced</li>
     </apparelTags>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Malakim>999</BS_Malakim>
       </xenotypeChances>
@@ -71,6 +70,7 @@
       <li>Advanced</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_ServitorMelee">
@@ -88,7 +88,6 @@
     <apparelIgnorePollution>true</apparelIgnorePollution>
     <weaponMoney>1200~2000</weaponMoney>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Malakim>999</BS_Malakim>
       </xenotypeChances>
@@ -144,8 +143,8 @@
     <weaponTags Inherit="False">
       <!-- <li>MedievalMeleeAdvanced</li> -->
     </weaponTags>
+    <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Satan>999</BS_Satan>
       </xenotypeChances>
@@ -155,11 +154,32 @@
       <li>Advanced</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
+    <startingHediffs>
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>0.5</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>1.5</severity>
+      </li>
+    </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.93, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_Satan">
     <defName>BS_SatanLimited</defName>
     <maxPerGroup>1</maxPerGroup>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.5, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_Satan">
@@ -173,6 +193,11 @@
       <li MayRequire="Ludeon.RimWorld.Royalty">AestheticNose</li>
       <li MayRequire="Ludeon.RimWorld.Royalty">HealingEnhancer</li>
     </techHediffsRequired>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0, 8)</li> <li>(1, 16)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <!--Authority-->
@@ -214,8 +239,8 @@
     <weaponTags Inherit="False">
       <li>UltratechMeleeGiant_Fire</li>
     </weaponTags>
+    <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Authority>999</BS_Authority>
       </xenotypeChances>
@@ -231,6 +256,28 @@
     </forcedTraits> -->
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <techHediffsChance>0.15</techHediffsChance>
+    <biocodeWeaponChance>0.75</biocodeWeaponChance>
+    <startingHediffs>
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>0.5</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>1.5</severity>
+      </li>
+    </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.93, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BS_AuthorityWarrior">
+    <defName>BS_Authority_Single</defName>
+    <label>holy warrior</label>
+    <maxPerGroup>1</maxPerGroup>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityWarrior" Name="BS_AuthorityLord">
@@ -256,8 +303,8 @@
     <weaponTags Inherit="False">
       <li>UltratechMeleeGiant_Fire</li>
     </weaponTags>
+    <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Authority>999</BS_Authority>
       </xenotypeChances>
@@ -270,6 +317,21 @@
       <PsychicSensitivity>2</PsychicSensitivity>
       <!-- <Tough/> -->
     </forcedTraits>
+    <startingHediffs Inherit="False">
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>1</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>2</severity>
+      </li>
+    </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0.4, 0)</li> <li>(1, 6)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BS_AuthorityLord">
@@ -300,6 +362,21 @@
       <li>ImplantEmpireCommon</li>
       <li>BodyPartsArchotech</li>
     </techHediffsTags>
+    <startingHediffs Inherit="False">
+      <li>
+        <def>BS_SoulCollector</def>
+        <severity>1.5</severity>
+      </li>
+      <li>
+        <def>BS_SoulPowerHediff</def>
+        <severity>2.5</severity>
+      </li>
+    </startingHediffs>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <psylinkLevels> <points> <li>(0, 6)</li> <li>(1, 12)</li> </points> </psylinkLevels>
+      </li>
+    </modExtensions>
   </PawnKindDef>
 
 
@@ -321,8 +398,8 @@
 			<li>UltratechMeleeGiant_Cold</li>
       <li>HerculeanWeapon</li>
     </weaponTags>
+    <useFactionXenotypes>false</useFactionXenotypes>
     <xenotypeSet Inherit="False">
-      <warnIfTotalAbove1>false</warnIfTotalAbove1>
       <xenotypeChances>
         <BS_Nephilim>999</BS_Nephilim>
       </xenotypeChances>

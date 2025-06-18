@@ -8,16 +8,19 @@
     <descriptionShort>Incredibly powerful angels most commonly seen on the battlefield.</descriptionShort>
     <iconPath>Xenotypes/BS_Authority</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_HeavenNamer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>BS_IndestructibleApparel</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
 			<li>TotalHealing</li>
 			<li>BS_Diet_Herbivore</li>
-			<li>HalfJotunFrame</li>
+			<!-- <li>HalfJotunFrame</li> -->
 			<li>BS_SlowBleeding</li>
 			<li>BS_EltexPsychic</li>
 			<li>BS_PsychicWarrior</li>
@@ -54,6 +57,9 @@
 			<li>AptitudeTerrible_Artistic</li>
 			<li>AptitudeTerrible_Social</li>
 			<li>FireImmunity</li>
+
+			<li>BS_SoulPowerGreat</li>
+			<li>BS_AnomalousForm</li>
 		</genes>
   </XenotypeDef>
 
@@ -65,9 +71,12 @@
     <descriptionShort>Malakim are the most common among the angels. They often act as messengers.</descriptionShort>
     <iconPath>Xenotypes/BS_Malakim</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_HeavenNamer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
@@ -97,7 +106,9 @@
 			<li>AptitudeTerrible_Social</li>
 			<li>AptitudePoor_Intellectual</li>
       <!-- <li>BS_HolyAngelwings</li> --> <!--Maybe use these for some other Angel?-->
-      <li>BS_MajesticBird</li>
+      <!-- <li>BS_MajesticBird</li> -->
+			 <li>BS_MajesticBird_Mid</li>
+			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
 
@@ -109,10 +120,13 @@
     <descriptionShort>Also known as the Angels of Hell or Zabaniyah.</descriptionShort>
     <iconPath>Xenotypes/BS_Satan</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Demon_Namer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>LoS_MarlithBody</li>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
@@ -120,7 +134,7 @@
 			<li>BS_TyrantCrown_Skin</li>
 			<li>BS_CannotWearClothing</li>
 			<li>BS_NaturalArmor</li>
-			<li>HalfJotunFrame</li>
+			<!-- <li>HalfJotunFrame</li> -->
 			<li>BS_SlowBleeding</li>
       <li>BS_Unpretentious</li>
 			<!-- <li>MoveSpeed_Quick</li> -->
@@ -151,6 +165,9 @@
 			<li>AptitudePoor_Artistic</li>
 			<li>AptitudeStrong_Social</li>
 			<!-- <li>AptitudePoor_Intellectual</li> -->
+
+			<li>BS_SoulPowerGreat</li>
+			<li>BS_AnomalousForm</li>
 		</genes>
   </XenotypeDef>
 
@@ -162,9 +179,12 @@
     <descriptionShort>Also known as the Fallen Watchers, they are the angels who were responsible for watching over humans.</descriptionShort>
     <iconPath>Xenotypes/BS_Grigori</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_HeavenNamer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>PerfectImmunity</li>
@@ -198,6 +218,7 @@
 			<li>AptitudePoor_Mining</li>
 			<li>AptitudeStrong_Crafting</li>
 			<li>AptitudeStrong_Intellectual</li>
+			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
 

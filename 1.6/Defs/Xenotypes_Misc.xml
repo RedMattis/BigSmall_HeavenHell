@@ -25,6 +25,9 @@
 			<!-- <li>Skin_LightGray</li> -->
 			<li>Learning_Slow</li>
 			<li>Unstoppable</li>
+			<li>BS_VerySlowAging</li>
+
+			<li>BS_SoulPowerGreat</li>
 		</genes>
   </XenotypeDef>
 
@@ -39,6 +42,7 @@
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>
+			<li>BS_TrulyAgeless</li>
 			<li>ArchiteMetabolism</li>
 			<li>DiseaseFree</li>
 			<li>Immunity_SuperStrong</li>
@@ -68,6 +72,7 @@
 			<li>AptitudePoor_Animals</li>
 			<li>AptitudeStrong_Social</li>
 			<li MayRequire="vanillaracesexpanded.highmate">VRE_HighmateHair</li>
+			<li>BS_SoulPower</li>
 		</genes>
   </XenotypeDef>
 </Defs>

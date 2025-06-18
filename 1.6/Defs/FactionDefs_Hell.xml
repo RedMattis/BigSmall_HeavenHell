@@ -1,0 +1,246 @@
+<Defs>
+
+  <FactionDef ParentName="PirateBandBase">
+    <defName>BS_Hell</defName>
+    <label>The Infernal Realm</label>
+    <fixedName>Tyranny of Hell</fixedName>
+    <leaderTitle>Lord</leaderTitle>
+    <description>The realms appear fairly independent from each other and usually ruled by some sort of demon lord.</description>
+    <techLevel>Medieval</techLevel>
+    <pawnSingular>demon</pawnSingular>
+    <pawnsPlural>demons</pawnsPlural>
+    <canStageAttacks>true</canStageAttacks> 
+    <factionIconPath>Icons/BS_Brimstone</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <configurationListOrderPriority>15</configurationListOrderPriority>
+    <listOrderPriority>45</listOrderPriority>
+    <autoFlee>false</autoFlee>
+    <!-- <allowedCultures Inherit="False"><li>Astropolitan</li></allowedCultures> -->
+    
+     <!-- <backstoryFilters>
+      <li>
+        <categories>
+          <li>BS_Hell</li>
+        </categories>
+      </li>
+    </backstoryFilters> -->
+
+
+    <fixedLeaderKinds>
+      <li>VU_DemonPrince</li>
+    </fixedLeaderKinds>
+  
+    <disallowedRaidStrategies>
+      <!-- <li>ImmediateAttackSappers</li> -->
+      <li>ImmediateAttackBreaching</li>
+      <!-- <li>ImmediateAttackBreachingSmart</li> -->
+      <li>Siege</li>
+    </disallowedRaidStrategies>
+    
+  
+    <allowedMemes Inherit="False">
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </allowedMemes>
+    <requiredMemes Inherit="False">
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </requiredMemes>
+    <disallowedPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Strict</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+  
+    <colorSpectrum>
+      <li>(0.40, 0.0, 0.0)</li>
+      <!-- <li>(0.61, 0.45, 0.32)</li> -->
+    </colorSpectrum>
+    <!-- <permanentEnemy>true</permanentEnemy> -->
+    <naturalEnemy>true</naturalEnemy>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+    <canSiege>false</canSiege>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <VU_Imp>0.50</VU_Imp>
+        <VU_Hellguard>0.30</VU_Hellguard>
+        <BS_LilGlutton>0.25</BS_LilGlutton>
+        <VU_Succubus MayRequire="RedMattis.Undead">0.20</VU_Succubus>
+        <VU_Gatekeeper>0.20</VU_Gatekeeper>
+        <BS_Lilim>0.2</BS_Lilim>
+        <BS_Glutton>0.1</BS_Glutton>
+      </xenotypeChances>
+    </xenotypeSet>
+    
+    <maxPawnCostPerTotalPointsCurve Inherit="False">
+      <points>
+        <li>(500, 150)</li> <!-- Can always use relatively strong pawns. -->
+        <li>(2000, 250)</li>
+        <li>(2001, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    
+    <pawnGroupMakers Inherit="False">
+      <li>
+        <!-- Imp Horde -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <VU_ImpFighter>10</VU_ImpFighter>
+          <VU_DemonWarrior>1</VU_DemonWarrior>
+          <VU_DemonCommander_Suc MayRequire="RedMattis.Undead">1</VU_DemonCommander_Suc>
+        </options>
+      </li>
+
+      <li>
+        <!-- Glutton Horde -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <BS_BigGlutton>1</BS_BigGlutton>
+          <BS_SmallGlutton>1</BS_SmallGlutton>
+        </options>
+      </li>
+  
+      <li>
+        <!-- Demon Horde -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <VU_ImpFighter>5</VU_ImpFighter>
+          <VU_DemonWarrior>15</VU_DemonWarrior>
+          <VU_DemonBrute>5</VU_DemonBrute>
+          <BS_SmallGlutton>1</BS_SmallGlutton>
+          <BS_BigGlutton>1</BS_BigGlutton>
+          <VU_LilimWarrior>1</VU_LilimWarrior>
+          <VU_DemonCommander>2</VU_DemonCommander>
+          <VU_DemonCommander_Suc MayRequire="RedMattis.Undead">3</VU_DemonCommander_Suc>
+          <VU_DemonPrince>1</VU_DemonPrince>
+        </options>
+      </li>
+  
+      <li>
+        <!-- Demon & Undead Horde -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <VU_ImpFighter>5</VU_ImpFighter>
+          <VU_DemonWarrior>15</VU_DemonWarrior>
+          <VU_DemonBrute>5</VU_DemonBrute>
+          <VU_DemonCommander>2</VU_DemonCommander>
+          <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>1</VU_LilimWarrior>
+          <VU_RoamingFootman MayRequire="RedMattis.Undead">2</VU_RoamingFootman>
+          <VU_DemonPrince>1</VU_DemonPrince>
+        </options>
+      </li>
+  
+      <li>
+        <!-- Peaceful -->
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <VU_ImpFighter>5</VU_ImpFighter>
+          <VU_DemonWarrior>15</VU_DemonWarrior>
+          <VU_DemonBrute>5</VU_DemonBrute>
+          <VU_LilimWarrior>1</VU_LilimWarrior>
+          <VU_DemonCommander>2</VU_DemonCommander>
+          <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonPrince>1</VU_DemonPrince>
+        </options>
+      </li>
+      <!-- In case a mod spawns them...-->
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <Town_Trader>1</Town_Trader>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <VU_ImpFighter>5</VU_ImpFighter>
+          <VU_DemonWarrior>15</VU_DemonWarrior>
+          <VU_DemonBrute>5</VU_DemonBrute>
+          <VU_DemonCommander>2</VU_DemonCommander>
+          <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>1</VU_LilimWarrior>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <VU_ImpFighter>5</VU_ImpFighter>
+          <VU_DemonWarrior>15</VU_DemonWarrior>
+          <VU_DemonBrute>5</VU_DemonBrute>
+          <BS_SmallGlutton>1</BS_SmallGlutton>
+          <BS_BigGlutton>1</BS_BigGlutton>
+          <VU_DemonCommander>2</VU_DemonCommander>
+          <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>1</VU_LilimWarrior>
+          <VU_DemonPrince>1</VU_DemonPrince>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <BS_SmallGlutton>0.1</BS_SmallGlutton>
+          <BS_BigGlutton>0.1</BS_BigGlutton>
+          <VU_DemonCommander_Suc>0.1</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>0.1</VU_LilimWarrior>
+          <Miner>1</Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <BS_SmallGlutton>0.1</BS_SmallGlutton>
+          <BS_BigGlutton>0.1</BS_BigGlutton>
+          <VU_DemonCommander_Suc>0.1</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>0.1</VU_LilimWarrior>
+          <Hunter>1</Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <BS_SmallGlutton>0.1</BS_SmallGlutton>
+          <BS_BigGlutton>0.1</BS_BigGlutton>
+          <VU_DemonCommander_Suc>0.1</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>0.1</VU_LilimWarrior>
+          <Logger>1</Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <BS_SmallGlutton>0.1</BS_SmallGlutton>
+          <BS_BigGlutton>0.1</BS_BigGlutton>
+          <VU_DemonCommander_Suc>0.1</VU_DemonCommander_Suc>
+          <VU_LilimWarrior>0.1</VU_LilimWarrior>
+          <Farmer>1</Farmer>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <modExtensions>
+      <li Class="BigAndSmall.Factions">
+        <canUseDropPods>false</canUseDropPods>
+      </li>
+    </modExtensions>
+  </FactionDef>
+
+</Defs>

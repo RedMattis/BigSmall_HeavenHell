@@ -6,8 +6,10 @@
     <combatPowerFactor>2</combatPowerFactor>
     <description>Gluttons are terrifying demons covered in teeth and mouths. They cannot even stop themselves from feasting on their foes in the midst of battle.</description>
     <descriptionShort>Gluttons are terrifying demons covered in teeth and mouths.</descriptionShort>
-    <iconPath>Xenotypes/BS_Ogre</iconPath>
+    <iconPath>Xenotypes/BS_Glutton</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Demon_Namer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
       <li>Ageless</li>
@@ -56,8 +58,10 @@
     <label>Lil' Glutton</label>
     <combatPowerFactor>1.8</combatPowerFactor>
     <description>Lil' gluttons appear to be smaller version of gluttons. They possess the same voracious appetite as their larger kin.</description>
-    <iconPath>Xenotypes/BS_Ogre</iconPath>
+    <iconPath>Xenotypes/BS_LilGlutton</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Demon_Namer</nameMaker>
+		<chanceToUseNameMaker>1.0</chanceToUseNameMaker>
     <factionlessGenerationWeight>1</factionlessGenerationWeight>
     <genes>
 			<li>Ageless</li>

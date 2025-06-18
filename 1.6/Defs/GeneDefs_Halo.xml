@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<Defs>
+  <GeneDef Abstract="True" Name="BS_Halobase">
+    <exclusionTags>
+      <li>BS_Halo</li>
+    </exclusionTags>
+
+  </GeneDef>
+  <GeneDef ParentName="BS_Halobase">
+    <defName>BS_AngelHalo</defName>
+    <label>angelic halo</label>
+    <description>Carriers of this gene possess an angelic halo.</description>
+    <iconPath>GeneIcons/Gene_AngelHalo</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>BS_Halos/AngelHaloSmall</texPath>
+        <color>(255, 255, 255, 180)</color>
+        <shaderTypeDef>TransparentPostLight</shaderTypeDef>
+        <colorType>Custom</colorType>
+        <drawData>
+          <defaultData>
+            <layer>49.5</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.0, 0, 0.0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.0, 0, 0.0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.0, 0, 0.0)</offset>
+            <layer>90</layer>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  <GeneDef ParentName="BS_Halobase">
+    <defName>BS_FalseHalo</defName>
+    <label>false halo</label>
+    <description>Carriers of this gene possess a strange halo.</description>
+    <iconPath>GeneIcons/Gene_AngelHalo</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>BS_Halos/AngelHaloSmall</texPath>
+        <color>(220, 160, 150, 130)</color>
+        <useSkinShader>false</useSkinShader>
+        <shaderTypeDef>TransparentPostLight</shaderTypeDef>
+        <colorType>Custom</colorType>
+        <drawData>
+          <defaultData>
+            <layer>49.5</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.0, 0, 0.0)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.0, 0, 0.0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.0, 0, 0.0)</offset>
+            <layer>90</layer>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  <GeneDef ParentName="BS_Halobase">
+    <defName>BS_FieryHalo</defName>
+    <label>burning halo</label>
+    <description>Carriers of this gene possess an burning angelic halo.</description>
+    <iconPath>GeneIcons/Gene_FieryHalo</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>BS_Halos/FieryHalo</texPath>
+        <color>(255, 255, 255, 220)</color>
+        <useSkinShader>false</useSkinShader>
+        <shaderTypeDef>TransparentPostLight</shaderTypeDef>
+        <colorType>Custom</colorType>
+        <drawData>
+          <defaultData>
+            <layer>49.5</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.0, 0, 0.05)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.0, 0, 0.15)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.0, 0, 0.15)</offset>
+            <layer>90</layer>
+          </dataEast>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+  <GeneDef ParentName="BS_Halobase">
+    <defName>BS_MenacingHalo</defName>
+    <label>meanacing halo</label>
+    <description>Carriers of this gene possess an menacing dark halo.</description>
+    <iconPath>GeneIcons/Gene_MenacingHalo</iconPath>
+    <renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>BS_Halos/MenacingHalo</texPath>
+        <color>(255, 255, 255, 235)</color>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Custom</colorType>
+        <drawData>
+          <defaultData>
+            <layer>49.5</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.0, 0, 0.05)</offset>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.0, 0, 0.0)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.0, 0, 0.1)</offset>
+            <layer>90</layer>
+          </dataEast>
+          <dataWest>
+            <offset>(-0.0, 0, 0.1)</offset>
+            <layer>90</layer>
+          </dataWest>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+</Defs>
