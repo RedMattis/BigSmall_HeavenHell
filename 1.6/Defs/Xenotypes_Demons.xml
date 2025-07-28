@@ -36,7 +36,7 @@
 			<li>BS_AcidResistanceMid</li>
 			<li>Robust</li>
 			<li>Pain_Reduced</li>
-			<li>Beauty_VeryUgly</li>
+      <li>BS_AlienApperanceStandards</li>
 			<li>BS_DevourerHead</li>
 			<li>Body_Fat</li>
 			<li>Body_Hulk</li>
@@ -85,7 +85,7 @@
 			<li>LowSleep</li>
 			<li>BS_AcidResistanceMid</li>
 			<li>Pain_Reduced</li>
-			<li>Beauty_VeryUgly</li>
+      <li>BS_AlienApperanceStandards</li>
 			<li>BS_DevourerHead</li>
 			<li>Body_Thin</li>
 			<li>BS_MimicBody</li>
