@@ -13,18 +13,19 @@
     <iconPath>GeneIcons/Gene_AngelHalo</iconPath>
     <renderNodeProperties Inherit="False">
       <li>
-        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <!-- <nodeClass>PawnRenderNode_AttachmentHead</nodeClass> -->
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>BS_Halos/AngelHaloSmall</texPath>
+        <texPath>BS_Halos/AngelHalo</texPath>
         <color>(255, 255, 255, 180)</color>
         <shaderTypeDef>TransparentPostLight</shaderTypeDef>
         <colorType>Custom</colorType>
+        <drawSize>(0.93,0.93)</drawSize>
         <drawData>
           <defaultData>
             <layer>49.5</layer>
           </defaultData>
           <dataNorth>
-            <offset>(0.0, 0, 0.0)</offset>
+            <offset>(0.0, 0.01, 0.0)</offset>
           </dataNorth>
           <dataSouth>
             <offset>(-0.0, 0, 0.0)</offset>
@@ -33,6 +34,10 @@
             <offset>(-0.0, 0, 0.0)</offset>
             <layer>90</layer>
           </dataEast>
+          <dataWest>
+            <offset>(-0.0, 0, 0.0)</offset>
+            <layer>90</layer>
+          </dataWest>
         </drawData>
         <parentTagDef>Head</parentTagDef>
       </li>
@@ -45,27 +50,32 @@
     <iconPath>GeneIcons/Gene_AngelHalo</iconPath>
     <renderNodeProperties Inherit="False">
       <li>
-        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <!-- <nodeClass>PawnRenderNode_AttachmentHead</nodeClass> -->
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>BS_Halos/AngelHaloSmall</texPath>
+        <texPath>BS_Halos/AngelHalo</texPath>
         <color>(220, 160, 150, 130)</color>
         <useSkinShader>false</useSkinShader>
         <shaderTypeDef>TransparentPostLight</shaderTypeDef>
         <colorType>Custom</colorType>
+        <drawSize>(0.93,0.93)</drawSize>
         <drawData>
           <defaultData>
             <layer>49.5</layer>
           </defaultData>
           <dataNorth>
-            <offset>(0.0, 0, 0.0)</offset>
+            <offset>(0.0, 0.01, 0.0)</offset>
           </dataNorth>
           <dataSouth>
-            <offset>(-0.0, 0, 0.0)</offset>
+            <offset>(-0.0, 0.0, 0.0)</offset>
           </dataSouth>
           <dataEast>
-            <offset>(-0.0, 0, 0.0)</offset>
+            <offset>(-0.0, 0.0, 0.0)</offset>
             <layer>90</layer>
           </dataEast>
+          <dataWest>
+            <offset>(-0.0, 0, 0.0)</offset>
+            <layer>90</layer>
+          </dataWest>
         </drawData>
         <parentTagDef>Head</parentTagDef>
       </li>
