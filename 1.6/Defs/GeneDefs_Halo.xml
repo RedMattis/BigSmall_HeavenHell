@@ -4,40 +4,78 @@
     <exclusionTags>
       <li>BS_Halo</li>
     </exclusionTags>
-
+    <selectionWeight>0.25</selectionWeight>
+    <modExtensions>
+      <li Class="BigAndSmall.HasCustomizableGraphics">
+        <tag><HaloGraphics/></tag>
+        <colorA>true</colorA>
+        <customFlags>
+          <!-- First part will be used as a key, so try to keep it unique. -->
+          <BS_HaloShader Label="Overlay Halo">OverlayHalo</BS_HaloShader>
+          <BS_HaloShader Label="Void Halo">VoidHalo</BS_HaloShader>
+        </customFlags>
+      </li>
+    </modExtensions>
   </GeneDef>
+
+  <BigAndSmall.ConditionalGraphicPropertiesDef>
+    <defName>BS_HaloConditionalProps</defName>
+    <properties>
+      <alts>
+        <li>
+          <customTagGraphicIsSet>
+            <tag> <HaloGraphics/> </tag>
+            <!-- Needs to be identical to the above (excepting label). -->
+            <customFlags> <BS_HaloShader>OverlayHalo</BS_HaloShader> </customFlags>
+          </customTagGraphicIsSet>
+          <shader>BS_FlatTransparentOverlay</shader>
+        </li>
+        <li>
+          <customTagGraphicIsSet>
+            <tag> <HaloGraphics/> </tag>
+            <customFlags> <BS_HaloShader>VoidHalo</BS_HaloShader> </customFlags>
+          </customTagGraphicIsSet>
+          <shader>BS_VoidShader</shader>
+        </li>
+      </alts>
+    </properties>
+  </BigAndSmall.ConditionalGraphicPropertiesDef>
+
   <GeneDef ParentName="BS_Halobase">
     <defName>BS_AngelHalo</defName>
     <label>angelic halo</label>
     <description>Carriers of this gene possess an angelic halo.</description>
     <iconPath>GeneIcons/Gene_AngelHalo</iconPath>
     <renderNodeProperties Inherit="False">
-      <li>
-        <!-- <nodeClass>PawnRenderNode_AttachmentHead</nodeClass> -->
+      <li Class="BigAndSmall.PawnRenderingProps_Ultimate">
+        <nodeClass>BigAndSmall.PawnRenderNode_Ultimate</nodeClass>
+        <conditionalGraphics>
+          <texturePaths> <li>BS_Halos/AngelHalo</li> </texturePaths>
+          <colorA>
+            <color>(252, 228, 137, 180)</color>
+            <alts>
+              <li>
+                <customTagGraphicIsSet>
+                  <tag><HaloGraphics/></tag>
+                  <colorA>true</colorA>
+                </customTagGraphicIsSet>
+                <customClrTagA><HaloGraphics/></customClrTagA>
+              </li>
+            </alts>
+          </colorA>
+          <propsDef>BS_HaloConditionalProps</propsDef>
+        </conditionalGraphics>
+        
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>BS_Halos/AngelHalo</texPath>
-        <color>(255, 255, 255, 180)</color>
-        <shaderTypeDef>TransparentPostLight</shaderTypeDef>
-        <colorType>Custom</colorType>
+        <shader>BS_EnergyShader</shader>
         <drawSize>(0.93,0.93)</drawSize>
+        
         <drawData>
-          <defaultData>
-            <layer>49.5</layer>
-          </defaultData>
-          <dataNorth>
-            <offset>(0.0, 0.01, 0.0)</offset>
-          </dataNorth>
-          <dataSouth>
-            <offset>(-0.0, 0, 0.0)</offset>
-          </dataSouth>
-          <dataEast>
-            <offset>(-0.0, 0, 0.0)</offset>
-            <layer>90</layer>
-          </dataEast>
-          <dataWest>
-            <offset>(-0.0, 0, 0.0)</offset>
-            <layer>90</layer>
-          </dataWest>
+          <defaultData> <layer>49.5</layer> </defaultData>
+          <dataNorth> <offset>(0.0, 0.01, 0.0)</offset> </dataNorth>
+          <dataSouth> <offset>(-0.0, 0, 0.0)</offset> <layer>15</layer></dataSouth>
+          <dataEast> <offset>(-0.0, 0, 0.0)</offset> <layer>90</layer> </dataEast>
+          <dataWest> <offset>(-0.0, 0, 0.0)</offset> <layer>90</layer> </dataWest>
         </drawData>
         <parentTagDef>Head</parentTagDef>
       </li>
@@ -49,14 +87,27 @@
     <description>Carriers of this gene possess a strange halo.</description>
     <iconPath>GeneIcons/Gene_AngelHalo</iconPath>
     <renderNodeProperties Inherit="False">
-      <li>
-        <!-- <nodeClass>PawnRenderNode_AttachmentHead</nodeClass> -->
+      <li Class="BigAndSmall.PawnRenderingProps_Ultimate">
+        <nodeClass>BigAndSmall.PawnRenderNode_Ultimate</nodeClass>
+        <conditionalGraphics>
+          <texturePaths> <li>BS_Halos/AngelHalo</li> </texturePaths>
+          <colorA>
+            <color>(220, 160, 150, 130)</color>
+            <alts>
+              <li>
+                <customTagGraphicIsSet>
+                  <tag><HaloGraphics/></tag>
+                  <colorA>true</colorA>
+                </customTagGraphicIsSet>
+                <customClrTagA><HaloGraphics/></customClrTagA>
+              </li>
+            </alts>
+          </colorA>
+          <propsDef>BS_HaloConditionalProps</propsDef>
+        </conditionalGraphics>
+        
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>BS_Halos/AngelHalo</texPath>
-        <color>(220, 160, 150, 130)</color>
-        <useSkinShader>false</useSkinShader>
-        <shaderTypeDef>TransparentPostLight</shaderTypeDef>
-        <colorType>Custom</colorType>
+        <shader>BS_EnergyShader</shader>
         <drawSize>(0.93,0.93)</drawSize>
         <drawData>
           <defaultData>
@@ -67,6 +118,7 @@
           </dataNorth>
           <dataSouth>
             <offset>(-0.0, 0.0, 0.0)</offset>
+            <layer>15</layer>
           </dataSouth>
           <dataEast>
             <offset>(-0.0, 0.0, 0.0)</offset>
@@ -87,14 +139,33 @@
     <description>Carriers of this gene possess an burning angelic halo.</description>
     <iconPath>GeneIcons/Gene_FieryHalo</iconPath>
     <renderNodeProperties Inherit="False">
-      <li>
-        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+      <li Class="BigAndSmall.PawnRenderingProps_Ultimate">
+        <nodeClass>BigAndSmall.PawnRenderNode_Ultimate</nodeClass>
+        <conditionalGraphics>
+          <texturePaths> <li>BS_Halos/FieryHalo</li> </texturePaths>
+          <colorA>
+            <color>(255, 255, 255, 155)</color>
+          </colorA>
+          <alts>
+            <li>
+              <customTagGraphicIsSet>
+                <tag><HaloGraphics/></tag>
+                <colorA>true</colorA>
+              </customTagGraphicIsSet>
+              <texturePaths> <li>BS_Halos/FieryHalo_grey</li> </texturePaths>
+              <colorA>
+                <color>(255, 255, 255, 220)</color>
+                <averageColors>false</averageColors>
+                <customClrTagA><HaloGraphics/></customClrTagA>
+              </colorA>
+              <propsDef>BS_HaloConditionalProps</propsDef>
+            </li>
+          </alts>
+          <propsDef>BS_HaloConditionalProps</propsDef>
+        </conditionalGraphics>
+        
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>BS_Halos/FieryHalo</texPath>
-        <color>(255, 255, 255, 220)</color>
-        <useSkinShader>false</useSkinShader>
-        <shaderTypeDef>TransparentPostLight</shaderTypeDef>
-        <colorType>Custom</colorType>
+        <shader>BS_EnergyShader</shader>
         <drawSize>(0.93,0.93)</drawSize>
         <drawData>
           <defaultData>
@@ -105,6 +176,7 @@
           </dataNorth>
           <dataSouth>
             <offset>(-0.0, 0, 0.15)</offset>
+            <layer>15</layer>
           </dataSouth>
           <dataEast>
             <offset>(-0.0, 0, 0.15)</offset>
@@ -117,17 +189,40 @@
   </GeneDef>
   <GeneDef ParentName="BS_Halobase">
     <defName>BS_MenacingHalo</defName>
-    <label>meanacing halo</label>
+    <label>menacing halo</label>
     <description>Carriers of this gene possess an menacing dark halo.</description>
     <iconPath>GeneIcons/Gene_MenacingHalo</iconPath>
     <renderNodeProperties Inherit="False">
-      <li>
-        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+      <li Class="BigAndSmall.PawnRenderingProps_Ultimate">
+        <nodeClass>BigAndSmall.PawnRenderNode_Ultimate</nodeClass>
+        <conditionalGraphics>
+          <texturePaths> <li>BS_Halos/MenacingHalo</li> </texturePaths>
+          <colorA>
+            <color>(255, 255, 255, 255)</color>
+          </colorA>
+          <alts>
+            <li>
+              <customTagGraphicIsSet>
+                <tag><HaloGraphics/></tag>
+                <colorA>true</colorA>
+              </customTagGraphicIsSet>
+              <texturePaths> <li>BS_Halos/MenacingHalo_grey</li> </texturePaths>
+              <props>
+                <shader>BS_EnergyShader</shader>
+              </props>
+              <colorA>
+                <color>(255, 255, 255, 235)</color>
+                <averageColors>false</averageColors>
+                <customClrTagA><HaloGraphics/></customClrTagA>
+              </colorA>
+              <propsDef>BS_HaloConditionalProps</propsDef>
+            </li>
+          </alts>
+          <propsDef>BS_HaloConditionalProps</propsDef>
+
+        </conditionalGraphics>
+        <shader>Transparent</shader>
         <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-        <texPath>BS_Halos/MenacingHalo</texPath>
-        <color>(255, 255, 255, 235)</color>
-        <useSkinShader>false</useSkinShader>
-        <colorType>Custom</colorType>
         <drawData>
           <defaultData>
             <layer>49.5</layer>
@@ -137,6 +232,7 @@
           </dataNorth>
           <dataSouth>
             <offset>(-0.0, 0, 0.025)</offset>
+            <layer>15</layer>
           </dataSouth>
           <dataEast>
             <offset>(-0.0, 0, 0.1)</offset>
