@@ -116,6 +116,27 @@
     </startingHediffs>
   </PawnKindDef>
 
+  <PawnKindDef ParentName="VU_DemonCommander_Suc" MayRequire="ReSplice.XOTR.Charmweavers">
+    <defName>VU_DemonCommander_PL</defName>
+    <label>royal</label>
+    <combatPower>300</combatPower>
+    <maxPerGroup>2</maxPerGroup>
+    <apparelMoney>4000~16000</apparelMoney>
+    <weaponMoney>1000~8700</weaponMoney>
+    <modExtensions>
+      <li Class="BigAndSmall.PawnKindExtension">
+        <customXenotypeName>Prince of Lust</customXenotypeName>
+        <customXenotypeName>Princess of Lust</customXenotypeName>
+        <removeOverlappingGenes>true</removeOverlappingGenes>
+        <appendGenes>
+          <li>RS_Lovehexer</li>
+          <li>BS_GeneStabilizing_Moderate</li>
+          <li>BS_SoulPowerGreat</li>
+        </appendGenes>
+      </li>
+    </modExtensions>
+  </PawnKindDef>
+
   <PawnKindDef ParentName="VU_DemonCommander">
     <defName>VU_DemonPrince</defName>
     <label>demon prince</label>

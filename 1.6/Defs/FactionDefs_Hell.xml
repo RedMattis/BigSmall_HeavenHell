@@ -73,7 +73,7 @@
         <VU_Imp>0.50</VU_Imp>
         <VU_Hellguard>0.30</VU_Hellguard>
         <BS_LilGlutton>0.25</BS_LilGlutton>
-        <VU_Succubus MayRequire="RedMattis.Undead">0.20</VU_Succubus>
+        <VU_Succubus>0.20</VU_Succubus>
         <VU_Gatekeeper>0.20</VU_Gatekeeper>
         <BS_Lilim>0.2</BS_Lilim>
         <BS_Glutton>0.1</BS_Glutton>
@@ -96,7 +96,8 @@
         <options>
           <VU_ImpFighter>10</VU_ImpFighter>
           <VU_DemonWarrior>1</VU_DemonWarrior>
-          <VU_DemonCommander_Suc MayRequire="RedMattis.Undead">1</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc>1</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc MayRequire="ReSplice.XOTR.Charmweavers">0.1</VU_DemonCommander_Suc>
         </options>
       </li>
 
@@ -122,7 +123,8 @@
           <BS_BigGlutton>1</BS_BigGlutton>
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_DemonCommander>2</VU_DemonCommander>
-          <VU_DemonCommander_Suc MayRequire="RedMattis.Undead">3</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc MayRequire="ReSplice.XOTR.Charmweavers">0.3</VU_DemonCommander_Suc>
           <VU_DemonPrince>1</VU_DemonPrince>
         </options>
       </li>
@@ -137,6 +139,7 @@
           <VU_DemonBrute>5</VU_DemonBrute>
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc MayRequire="ReSplice.XOTR.Charmweavers">0.3</VU_DemonCommander_Suc>
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_RoamingFootman MayRequire="RedMattis.Undead">2</VU_RoamingFootman>
           <VU_DemonPrince>1</VU_DemonPrince>
@@ -153,6 +156,7 @@
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc MayRequire="ReSplice.XOTR.Charmweavers">1</VU_DemonCommander_Suc>
           <VU_DemonPrince>1</VU_DemonPrince>
         </options>
       </li>
@@ -174,6 +178,7 @@
           <VU_DemonBrute>5</VU_DemonBrute>
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc MayRequire="ReSplice.XOTR.Charmweavers">1</VU_DemonCommander_Suc>
           <VU_LilimWarrior>1</VU_LilimWarrior>
         </guards>
       </li>
@@ -187,6 +192,7 @@
           <BS_BigGlutton>1</BS_BigGlutton>
           <VU_DemonCommander>2</VU_DemonCommander>
           <VU_DemonCommander_Suc>3</VU_DemonCommander_Suc>
+          <VU_DemonCommander_Suc MayRequire="ReSplice.XOTR.Charmweavers">5</VU_DemonCommander_Suc>
           <VU_LilimWarrior>1</VU_LilimWarrior>
           <VU_DemonPrince>1</VU_DemonPrince>
         </options>
